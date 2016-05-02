@@ -103,6 +103,7 @@ module GrapeSwagger
         format: :json,
         authorizations: nil,
         api_documentation: { desc: 'Swagger compatible API description' },
+        securityDefinitions: nil,
         specific_api_documentation: { desc: 'Swagger compatible API description for specific API' }
       }
     end
